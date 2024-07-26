@@ -1,0 +1,240 @@
+#nav_div{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #0B3948;
+    color:white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+nav{
+    background-color: #0B3948;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+ }
+
+ 
+ .items:hover{
+    background-color: gray;
+    opacity: 0.5;
+    border-radius: 20px;
+ }
+ 
+
+
+ a{
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+
+hr{
+    margin-top: 70px;
+    height:3px;
+    background-color:black;
+    margin-bottom: 70px;
+    border-top: 5px solid black;
+}
+
+h1{
+    margin-top: 70px;
+}
+
+body{
+    background-color: #000000;
+    background-image: url(/images/spacebg.png);
+    display: flex;
+    flex-direction: column;
+}
+
+#about_me{
+    background-color: #416165;
+    color: white;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border-radius: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#music {
+    background-color: #416165;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: light;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.music-lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-list {
+    flex: 1;
+    margin: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.music-list li {
+    margin-bottom: 10px;
+}
+
+#books{
+    background-color: #416165;
+    color:white;
+    padding: 25px;
+    margin: 45px;
+    border-radius: 40px;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#books p{
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.book{
+    background-color: #BACDB0;
+    color:black;
+    margin:20px;
+    border-radius: 20px;
+    padding:10px;
+}
+
+#space li{
+    list-style-type:none;
+}
+
+#space{
+    background-color: #416165;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 40px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#space p{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: light;
+}
+
+.spaceimg{
+    background-color: rgb(163, 174, 174);
+    border-radius: 20px;
+    padding:10px;
+}
+
+.favorite_bands{
+    background-color: rgb(100, 137, 143);
+    padding: 25px;
+    margin: 45px;
+    border-radius: 40px;
+    font-family:Gill Sans, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.favorite_artists{
+    background-color: rgb(100, 137, 143);
+    padding: 25px;
+    margin: 45px;
+    border-radius: 40px;
+    font-family:Gill Sans, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.favorite_songs{
+    background-color: rgb(100, 137, 143);
+    padding: 25px;
+    margin: 45px;
+    border-radius: 40px;
+    font-family:Gill Sans, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: left;
+    max-height: fit-content;
+}
+
+ul{
+    font-size: 25px;
+}
+
+p{
+    font-size: 25px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.favorite_bands, .favorite_artists, .favorite_songs {
+    background-color: rgb(100, 137, 143);
+    padding: 25px;
+    margin: 45px;
+    border-radius: 40px;
+    font-family: Gill Sans, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (min-width: 850px) {
+    .music-lists {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .music-list {
+        flex: 1;
+        margin: 10px;
+    }
+}
