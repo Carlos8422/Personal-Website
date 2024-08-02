@@ -12,7 +12,7 @@ nav{
     background-color: #0B3948;
     padding: 5px;
     display: flex;
-    justify-content: space-arounf;
+    justify-content: space-around;
     position:fixed;
     top:0;
     left:0;
@@ -186,9 +186,18 @@ body{
     text-align: center;
 }
 
-#odyssey_of_the_mind{
+#experience{
     background-color: #0b3948;
     color:rgb(255, 255, 255);
+    margin:20px;
+    border-radius: 20px;
+    padding:10px;
+    text-align: center;
+}
+
+#odyssey_of_the_mind{
+    background-color: #BACDB0;
+    color:black;
     margin:20px;
     border-radius: 20px;
     padding:10px;
@@ -347,7 +356,7 @@ img{
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 510px) {
     #books img{
         max-width: 200px;
         max-height:max-content;
@@ -360,7 +369,7 @@ img{
         color:white;
         font-size: 25px;
         padding: 5px;
-        font-size: 20px;
+        font-size: 18px;
     }
     .spaceimg{
         background-color: rgb(163, 174, 174);
@@ -409,5 +418,9 @@ img{
     #space{
         align-items: center;
         justify-content: center;
+    }
+
+    #academics img{
+        max-width: 100%;
     }
 }
