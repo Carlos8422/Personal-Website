@@ -30,12 +30,14 @@
 <body>
     <nav>
         <a href="#"><div id="nav_div" class="items">Carlos</div></a>
+        <a href = "#academics"><div id = "nav_div" class="items">Academics</div></a>
         <a href = "#about_me"><div id="nav_div" class="items">Home</div></a>
         <a href = "#music"><div id="nav_div" class="items">Music</div></a>
         <a href = "#books"><div id="nav_div" class="items">Books</div></a>
         <a href = "#space"><div id="nav_div"class="items">Space</div></a>
     </nav>
     <div id="about_me">
+
         <h1>About Me</h1>
         <p class="about">Hi, I'm Carlos! Born and raised in New Jersey. 
         I am currently an upcoming junior at Frank J. Cicarell
@@ -60,10 +62,108 @@
         </p>
     </div>
 
+    <div id="academics">
+        <h1>Academics</h1>
+
+        <h2 id ="main_stats">Main Stats:
+            <br>
+            GPA: 4.1551 Unweighted | 4.8811 Weighted
+            <br>
+            Rank: 1/310
+            <br>
+            ACT Score: 28/36 (I will be retaking it this September)
+        </h2>
+
+        <h2 id ="taken_ap_classes">Here are some AP Classes I have taken!
+            <ul>
+                <li>AP Computer Science Principles (2022-2023) (Freshman year)
+                    <br>
+                    <button id="apcsp_button" class = "ap_buttons">Click to reveal score</button>
+                    <h5 id="apcsp_score">Score: 3</h5>
+                </li>
+                <li>AP Precalculus (2023-2024) (Sophomore Year)
+                    <br>
+                    <button id="appc_button" class = "ap_buttons">Click to reveal score</button>
+                    <h5 id="appc_score">Score: 5</h5>
+                </li>
+                <li>AP Psychology (2023-2024) (Sophomore Year)
+                    <br>
+                    <button id="app_button" class = "ap_buttons">Click to reveal score</button>
+                    <h5 id="app_score">Score: 4</h5>
+                </li>
+            </ul>
+        </h2>
+
+
+        <h2 id="non_ap_classes">Here are some classes (non-AP) that I have taken
+            <ul>2022-2023 (Freshman year)
+                <li>Algebra II Honors</li>
+                <li>English I Honors</li>
+                <li>Italian I</li>
+                <li>Physical Education Health I</li>
+                <li>Physics Honors</li>
+                <li>World History Culture Honors</li>
+            </ul>
+            <ul>2023-2024 (Sophomore Year)
+                <li>Chemistry Honors</li>
+                <li>English II Honors</li>
+                <li>Physical Education Health II</li>
+                <li>US History I Honors</li>
+            </ul>
+        </h2>
+
+        <h2 id="future_ap_classes">
+            <ul>Here are some classes that I will take in the upcoming 2024-2025 (Junior) school year!
+                <li>AP Calculus BC</li>
+                <li>AP Chemistry</li>
+                <li>AP English Language</li>
+                <li>AP Italian</li>
+                <li>AP United States History</li>
+                <li>Biology Honors</li>
+                <li>Physical Education Health III</li>
+            </ul>
+            <ul>For my 2025-2026 year (Senior), I anticipate taking:
+                <li>Calc III Dual Enrollment</li>
+                <li>AP Physics</li>
+                <li>AP Computer Science A</li>
+                <li>AP Economics</li>
+                <li>AP English Literature</li>
+                <li>Physical Education Health IV</li>
+
+            </ul>
+        </h2>
+
+        <h2 id="odyssey_of_the_mind">Being a member of Odyssey of the Mind is really fun! Odyssey of the Mind targets to help kids 
+            build their problem solving skills, engineering skills, and presentational skills.
+            <p>Through my school, teammates, and tons of hours put into work, my team and I were able to go to Iowa State University to go compete globally with people from many countries. After getting 1st place in the NJ regional competition, and then 2nd place in the NJ state competition, we were able to move on to the global competition!
+                My team specializes in vehicle engineering, so we competed for the Drive-In Movie Theatre challenge. </p>
+                <span id ="odyssey_of_the_mind_pics">Some pictures of my team and I! <br> <br>
+                    <br>
+                    <img src="images/iowaTeam.jpg" width = "350px" height="auto">
+                    <img src="images/stateComp.jpeg" width = "350px" height="auto">
+                    <img src="images/regionalComp.jpg" width = "350px" height="auto">
+                    <img src="images/entireOM.jpg" width = "350px" height="auto">
+                    <img src="images/iowaPerformance.jpg" width = "350px" height="auto">
+                </span>
+        </h2>
+    </div>
+
+
     <div id="music">
         <h1>Music</h1>
+
+        <div id="music_selection">
+        <select id="favorite_blank">Choose an option!
+            <option>Choose an option!</option>
+            <option>Favorite Bands</option>
+            <option>Favorite Songs</option>
+            <option>Favorite Artists</option>
+        </select>
+        <button id ="favMusicButton">Click</button>
+        </div>
+
         <div class="music-lists">
-            <ul class="favorite_bands music-list">Favorite Bands:
+            <ul class="favorite_bands music-list" id="favBand">Favorite Bands:
                 <li>New Order <br> <img src="images/neworder.png" height="200px" width="auto"></li>
                 <li>Joy Division <br> <img src="images/joydivision.jpg" height="200px" width="auto"></li>
                 <li>Depeche Mode <br> <img src="images/depechemode.png" height="200px" width="auto"></li>
@@ -73,16 +173,50 @@
                 <li>Paramore <br> <img src="images/paramore.jpg" height="200px" width="auto"></li>
             </ul>
 
-            <ul class="favorite_songs music-list">Favorite Songs:
-                <li>Grace - Jeff Buckley <br> <a href="https://www.youtube.com/watch?v=A3adFWKE9JE" target="_blank">Click Here To Listen</a></li>
-                <li>Blue Monday - New Order <br> <a href="https://www.youtube.com/watch?v=c1GxjzHm5us" target="_blank">Click Here To Listen</a></li>
-                <li>Never Let Me Down Again - Depeche Mode <br> <a href="https://www.youtube.com/watch?v=snILjFUkk_A" target="_blank">Click Here To Listen</a></li>
-                <li>Love Will Tear Us Apart - Joy Division <br> <a href="https://www.youtube.com/watch?v=zuuObGsB0No" target="_blank">Click Here To Listen</a></li>
-                <li>Rhiannon - Fleetwood Mac <br> <a href="https://www.youtube.com/watch?v=jQAK6sVovUk" target="_blank">Click Here To Listen</a></li>
-                <li>Light My Fire - The Doors <br> <a href="https://www.youtube.com/watch?v=qoX6AKuYWL8" target="_blank">Click Here To Listen</a></li>
+            <ul class="favorite_songs music-list" id="favSong">Favorite Songs: <br>
+                <li>Grace - Jeff Buckley <br> <br>Play To Listen<br> <br> <audio controls>
+                    <source src="audio/grace.mp3">
+                </audio>
+                </li>
+                <br>
+                <li>Go With The Flow - Queens of the Stone Age<br> <br> Play To Listen<br> <br> <audio controls>
+                    <source src="audio/goWithTheFlow.mp3">
+                </audio>
+                <br>
+                </li>
+                <li>This Is Why - Paramore <br> <br> Play To Listen<br> <br> <audio controls>
+                    <source src="audio/thisIsWhy.mp3">
+                </audio>
+                </li>
+                <br> </li>
+                <li>Blue Monday - New Order <br> <br> Play To Listen<br> <br> <audio controls>
+                    <source src="audio/blueMonday.mp3">
+                </audio>
+                </li>
+                <br> </li>
+                <li>Never Let Me Down Again - Depeche Mode <br> <br> Play To Listen<br> <br> <audio controls>
+                    <source src="audio/neverLetMeDownAgain.mp3">
+                </audio>
+                </li>
+                <br></li>
+                <li>Love Will Tear Us Apart - Joy Division <br> <br> Play To Listen<br> <br> <audio controls>
+                    <source src="audio/loveWillTearUsApart.mp3">
+                </audio>
+                </li>
+                <br></li>
+                <li>Rhiannon - Fleetwood Mac <br> <br> Play To Listen<br> <br> <audio controls>
+                    <source src="audio/rhiannon.mp3">
+                </audio>
+                </li>
+                <br></li>
+                <li>Light My Fire - The Doors <br> <br> Play To Listen<br><br><br>  <audio controls>
+                    <source src="audio/grace.mp3">
+                </audio>
+                </li>
+                <br></li>
             </ul>
 
-            <ul class="favorite_artists music-list">Favorite Artists:
+            <ul class="favorite_artists music-list" id="favArtist">Favorite Artists:
                 <li>Jeff Buckley <br> <img src="images/jeffbuckley.png" height="200px" width="auto"></li>
                 <li>Clairo <br> <img src="images/clairo.webp" height="200px" width="auto"></li>
                 <li>Bon Jovi <br> <img src="images/bonjovi.jpg" height="200px" width="auto"></li>
@@ -135,7 +269,7 @@
             </p>
         </h2>
         <h2 class="book">The Three Body Problem - Cixin Liu
-            <p>A Chinese novel where a woman makes the first contant with aliens in all of human history. From a single push of a button to send a message, she triggers a crazy sequence of events and eventually leads to the aliens creating a high-dimensional particle to monitor humans on Earth using quantam entaglement. These aliens also make a VR-like headset for humans to play levels to see how the alien's were affected by their three stars leading into "Chaotic Eras". Currently reading the second book in the series and it's just as good!
+            <p>A Chinese novel where a woman makes the first contact with aliens in all of human history. From a single push of a button to send a message, she triggers a crazy sequence of events and eventually leads to the aliens creating a high-dimensional particle to monitor humans on Earth using quantam entaglement. These aliens also make a VR-like headset for humans to play levels to see how the alien's were affected by their three stars leading into "Chaotic Eras". Currently reading the second book in the series and it's just as good!
                 <br>
                 <br>
                 <img src="images/thethreebodyproblem.jpg" height = "400px" width ="auto">
@@ -171,5 +305,7 @@
 
     </div>
 
+
+    <script src = "script.js"></script>
 </body>
 </html>

@@ -12,11 +12,27 @@ nav{
     background-color: #0B3948;
     padding: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-arounf;
     position:fixed;
     top:0;
     left:0;
     width:100%;
+    border: 5px solid black;
+ }
+
+ #favMusicButton{
+    border-radius:20px;
+    font-size: 20px;
+    background-color: #000000;
+    color:white;
+ }
+
+ select{
+    border-radius: 20px;
+    background-color: #0B3948;
+    color:white;
+    font-size: 20px;
+    text-align: center;
  }
 
  .items{
@@ -138,6 +154,51 @@ body{
     padding:10px;
 }
 
+.ap_buttons{
+    background-color: #93c4b1;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+
+#non_ap_classes{
+    background-color: #0b3948;
+    color:rgb(255, 255, 255);
+    margin:20px;
+    border-radius: 20px;
+    padding:10px;
+}
+
+#taken_ap_classes{
+    background-color: #BACDB0;
+    color:black;
+    margin:20px;
+    border-radius: 20px;
+    padding:10px;
+}
+
+#future_ap_classes{
+    background-color: #BACDB0;
+    color:black;
+    margin:20px;
+    border-radius: 20px;
+    padding:10px;
+    text-align: center;
+}
+
+#odyssey_of_the_mind{
+    background-color: #0b3948;
+    color:rgb(255, 255, 255);
+    margin:20px;
+    border-radius: 20px;
+    padding:10px;
+    text-align: center;
+}
+
+#main_stats{
+    color:white;
+}
+
 
 #space li{
     list-style-type:none;
@@ -157,6 +218,26 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+#academics{
+    background-color: #416165;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 40px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#academics h1{
+    color:white;
 }
 
 #space p{
@@ -241,6 +322,29 @@ img{
         flex: 1;
         margin: 10px;
     }
+    #nav_div{
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #0B3948;
+        color:white;
+        font-size: 25px;
+        padding: 5px;
+        font-size: 32px;
+    }
+}
+
+@media(max-width:800px){
+    #nav_div{
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #0B3948;
+        color:white;
+        font-size: 25px;
+        padding: 5px;
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -254,7 +358,7 @@ img{
         font-style: normal;
         background-color: #0B3948;
         color:white;
-        font-size: 32px;
+        font-size: 25px;
         padding: 5px;
         font-size: 20px;
     }
@@ -279,11 +383,11 @@ img{
         font-family: "Ubuntu", sans-serif;
         font-weight: 400;
         font-style: normal;
-        background-color: #0B3948;
+        background-color: #0b3948;
         color:white;
-        font-size: 32px;
-        padding: 5px;
         font-size: 20px;
+        padding: 5px;
+        font-size: 15px;
     }
     .spaceimg{
         background-color: rgb(163, 174, 174);
